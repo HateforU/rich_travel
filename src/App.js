@@ -78,7 +78,7 @@ const App=()=> {
           />
          <Carousel.Caption>
           <h3></h3>
-          <p>Доверьте свои деньги и отдых проффесионалам.Ждем</p>
+          <p>Доверьте свои деньги и отдых проффесионалам.Ждем тебя.</p>
          </Carousel.Caption>
         </Carousel.Item>
        </Carousel>
