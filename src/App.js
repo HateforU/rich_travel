@@ -21,8 +21,8 @@ const App=()=> {
           <Navbar.Brand href="#home">
             <img
               src={logo}
-              width="30"
-              height="30"
+              width="40"
+              height="40"
               className="d-inline-block align-top"
               alt="logo"
             />
@@ -50,7 +50,7 @@ const App=()=> {
               className="d-block w-100 "
               src={picture1}
               alt="First slide"
-              
+
             />
            <Carousel.Caption>
             <h3></h3>
@@ -78,7 +78,7 @@ const App=()=> {
           />
          <Carousel.Caption>
           <h3></h3>
-          <p>Доверьте свои деньги и отдых проффесионалам. </p>
+          <p>Доверьте свои деньги и отдых проффесионалам.Ждем</p>
          </Carousel.Caption>
         </Carousel.Item>
        </Carousel>
