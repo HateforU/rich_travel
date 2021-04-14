@@ -9,13 +9,7 @@ const NavbarHeader=()=> {
     <div className="NavbarHeader">
     <Navbar bg="light">
       <Navbar.Brand href="#home">
-        <img
-          src={logo}
-          width="40"
-          height="40"
-          className="d-inline-block align-top"
-          alt="logo"
-        />
+        <img src={logo} width="40" height="40" className="d-inline-block align-top" alt="logo"/>
       </Navbar.Brand>
       <Navbar.Brand href="#home">Travel</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />

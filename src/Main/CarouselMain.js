@@ -7,7 +7,7 @@ import styled from 'styled-components'
 
 
 const DD=styled.div`
-  background:#b41dc3;
+
 `
 
 const CarouselMain=()=> {
