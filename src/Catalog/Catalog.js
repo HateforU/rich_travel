@@ -4,6 +4,8 @@ import logo3 from './luxary5.jpg';
 
 import styled from 'styled-components'
 
+import ContentContainer from "./TESTfile.js";
+
 
 const Text=styled.div`
   background:rgba(164, 45, 221, 0.67);
@@ -65,7 +67,7 @@ const Catalog=()=> {
         </div>
       </div>
 
-
+    <ContentContainer />
 
       <div class="footer">
         <div class="container">

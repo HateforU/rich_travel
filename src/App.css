@@ -9,13 +9,12 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .App-logo {  animation: App-logo-spin infinite 20s linear;
   }
 }
 
 .App-header {
-  background-color: #red;
+  background-color: red;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -33,33 +32,40 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
-.nav-link{
-  color:black !important;
+
+.nav-link {
+  color: black !important;
 }
+
 .d-block w-100 {
   height: 30px;
 }
-.pictureCatalog{
-  float: left;
+
+.pictureCatalog {
+  float: left;;
 }
-.catalog1{
-    border-style:solid;
-    border-color: #d6b216;
+
+.catalog1 {
+  border-style: solid;
+  border-color: #d6b216;
 }
-.Variant{
-  background-color:rgba(198, 200, 199, 0.26);
-  border-style:solid;
-  border-color:rgb(176, 176, 176) ;
+
+.Variant {
+  background-color: rgba(198, 200, 199, 0.26);
+  border-style: solid;
+  border-color: rgb(176, 176, 176);
   padding: 10px 10px 10px 10px;
   height: 265px;
   margin-top: 25px;
   margin-bottom: 25px;
 }
-.textCatalog{
+
+.textCatalog {
   background: rgb(219, 207, 128);
   width: 780px;
   float: left;
@@ -68,52 +74,61 @@
   margin-left: 13px;
 }
 
-.containerCatalog{
+.containerCatalog {
   width: 1140px;
-  margin-left: auto;/*автоматический отступ сплево */
-  margin-right: auto;/*автоматический отступ справо */
+  margin-left: auto;
+  /*автоматический отступ сплево */
+  margin-right: auto;
+  /*автоматический отступ справо */
 }
-
-
 
 /*..............Низ(footer).............*/
-.footer{
-  background-color:rgba(241, 241, 241, 1);
-  color:rgb(3, 3, 3);
-
-
+.footer {
+  background-color: rgba(241, 241, 241, 1);
+  color: rgb(3, 3, 3);
 }
 
-p.footer_name {/*выбираем тег р у которого есть класс footer_name*/
+p.footer_name {
+  /*выбираем тег р у которого есть класс footer_name*/
   font-size: medium;
   margin-top: 15px;
-  line-height: normal;/*высота строки*/
+  line-height: normal;
+  /*высота строки*/
   font-family: 'Merriweather Sans';
 }
 
-p.footer_social_icons{
-  color:#d6b216 ;
+p.footer_social_icons {
+  color: #d6b216;
   font-size: 30px;
 }
 
 p.footer_social_icons a {
-  color: #d6b216;/*цвет*/
-  text-decoration: none;/*убираем подчеркивание*/
-  margin-right: 30px;/*отступ*/
-
+  color: #d6b216;
+  /*цвет*/
+  text-decoration: none;
+  /*убираем подчеркивание*/
+  margin-right: 30px;
+  /*отступ*/
 }
-p.footer_social_icons a:last-child{
+
+p.footer_social_icons a:last-child {
   margin-right: 0px;
 }
-p.footer_social_icons a:hover{
+
+p.footer_social_icons a:hover {
   color: rgba(251, 221, 19, 0.86);
 }
 
-.col_4 {/*размещение колонок в ряд */
+.col_4 {
+  /*размещение колонок в ряд */
   width: 360px;
-  margin-right: 270px;/*отступ */
-  float: left; /*обтекание слево */
+  margin-right: 270px;
+  /*отступ */
+  float: left;
+  /*обтекание слево */
 }
-.col_4:last-child {/*создание псевдокласс,выбор последней колонки */
+
+.col_4:last-child {
+  /*создание псевдокласс,выбор последней колонки */
   margin-right: 0px;
 }
