@@ -4,15 +4,15 @@ import tour3 from "./luxary5.jpg";
 
 import styled from "styled-components";
 
-import CustomCard from "./TESTfile2.js";
+import CustomCard from "./CardsCatalog.js";
 
-const ContentContainer = () => {
+const DataCatalog = () => {
   const tour = [
     {
       name: "Bali",
       image: tour1,
-      star: "5",
-      transfer: "Yes",
+      star: "4",
+      transfer: "No",
       food: "Shed table",
       wifi: "Yes",
       price: "3500$",
@@ -21,16 +21,16 @@ const ContentContainer = () => {
       name: "Maldivs",
       image: tour2,
       star: "5",
-      transfer: "Yes",
-      food: "Shed table",
+      transfer: "No",
+      food: "Breakfast",
       wifi: "Yes",
       price: "7600$",
     },
     {
       name: "Dubai",
       image: tour3,
-      star: "5",
-      transfer: "Yes",
+      star: "4",
+      transfer: "No",
       food: "Shed table",
       wifi: "Yes",
       price: "3900$",
@@ -40,7 +40,7 @@ const ContentContainer = () => {
       image: tour1,
       star: "5",
       transfer: "Yes",
-      food: "Shed table",
+      food: "Breakfast",
       wifi: "Yes",
       price: "5500$",
     },
@@ -48,7 +48,7 @@ const ContentContainer = () => {
       name: "Maldivs",
       image: tour2,
       star: "5",
-      transfer: "Yes",
+      transfer: "No",
       food: "Shed table",
       wifi: "Yes",
       price: "6500$",
@@ -58,15 +58,15 @@ const ContentContainer = () => {
       image: tour3,
       star: "5",
       transfer: "Yes",
-      food: "Shed table",
+      food: "Dinner",
       wifi: "Yes",
       price: "8000$",
     },
     {
       name: "Bali",
       image: tour1,
-      star: "5",
-      transfer: "Yes",
+      star: "4",
+      transfer: "No",
       food: "Shed table",
       wifi: "Yes",
       price: "2800$",
@@ -74,9 +74,9 @@ const ContentContainer = () => {
     {
       name: "Maldivs",
       image: tour2,
-      star: "5",
-      transfer: "Yes",
-      food: "Shed table",
+      star: "4",
+      transfer: "No",
+      food: "Dinner",
       wifi: "Yes",
       price: "3600$",
     },
@@ -94,7 +94,7 @@ const ContentContainer = () => {
       image: tour1,
       star: "5",
       transfer: "Yes",
-      food: "Shed table",
+      food: "Breakfast",
       wifi: "Yes",
       price: "4500$",
     },
@@ -123,14 +123,20 @@ const ContentContainer = () => {
   tour.forEach((tour) => {
     toursContainer.push(
       <div className="col-lg-12">
-        <CustomCard title={tour.name} tourImage={tour.image} tourstar={tour.star} tourtransfer={tour.transfer} tourfood={tour.food} tourwifi={tour.wifi} tourprice={tour.price} />
+        <CustomCard
+          title={tour.name}
+          tourImage={tour.image}
+          tourstar={tour.star}
+          tourtransfer={tour.transfer}
+          tourfood={tour.food}
+          tourwifi={tour.wifi}
+          tourprice={tour.price}
+        />
       </div>
     );
   });
 
-  return <div className="row">
-    {toursContainer}
-  </div>;
+  return <div className="row">{toursContainer}</div>;
 };
 
-export default ContentContainer;
+export default DataCatalog;

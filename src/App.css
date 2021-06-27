@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #2d3439;
+  background-color: white;
 }
 
 .App-logo {
@@ -122,13 +122,62 @@ p.footer_social_icons a:hover {
 .col_4 {
   /*размещение колонок в ряд */
   width: 360px;
-  margin-right: 270px;
+  margin-right: 420px;
   /*отступ */
   float: left;
   /*обтекание слево */
+  margin-top: 5px;
 }
 
 .col_4:last-child {
   /*создание псевдокласс,выбор последней колонки */
   margin-right: 0px;
+}
+.name2{
+float: left;
+margin-right: 10px;
+}
+.name3{
+  text-align: justify;
+
+  margin-right: 25px;
+  margin-top: 30px;
+}
+.name4{
+  float:left;
+  display: flex;
+  flex-direction: column;
+  width: 10px;
+  margin-right: 15px;
+
+
+}
+.namep{
+  margin-top: 15px;
+  margin-bottom: -24px;
+}
+
+a:hover{
+   text-decoration: none ;
+
+ }
+ .carousel-control-prev{
+   /* bottom: 156px;
+   width: auto; */
+ }
+.carouselmain{
+height: 600px;
+
+}
+.PageBaliContent{
+  display: flex;
+
+}
+.PageBaliContentText{
+  margin-left:190px;
+  margin-top: 20px;
+  font-size: 15px;
+  text-align: justify;
+  width:600px;
+  height:300px;
 }

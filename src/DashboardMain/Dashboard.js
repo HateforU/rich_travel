@@ -1,41 +1,59 @@
-import icon_news from "./icon_news.png";
+import icon_sale from "./currency-exchange.svg";
 
 import styled from "styled-components";
 
 import NavbarHeader from "./navbar/NavbarHeader.js";
 import CarouselMain from "./CarouselMain.js";
 import Footer from "./Footer.js";
+import CarouselNews from "./CarouselNews.js";
 
-const Ft = styled.div`
+const StyledHeaderSales = styled.div`
+  display: flex;
+  flex-direction: column;
   font-size: 30px;
-  height: 665px;
+  height: 620px;
   text-align: left;
-  color: #d6b216;
-`;
-const Dd = styled.div`
+  color: #4d585b;
   padding-top: 30px;
   padding-left: 30px;
 `;
+
+const StyledIconSales = styled.div`
+display: flex;
+flex-direction: row;
+  font-size: 40px;
+`;
+const StyledTextSale = styled.div`
+margin-left:15px;
+
+`;
+
 const Dashboard = () => {
   return (
     <div className="Dashboard">
-    <NavbarHeader />
-    <CarouselMain />
+      <NavbarHeader />
+      <CarouselMain />
 
-    <Ft>
-      <Dd>
-        <img
-          src={icon_news}
-          width="40"
-          height="40"
-          className="d-inline-block align-top"
-          alt="logo"
-        />
-        News
-        <p>_________________________________________</p>
-      </Dd>
-    </Ft>
-    <Footer />
+      <StyledHeaderSales>
+        <StyledIconSales>
+          <img
+            src={icon_sale}
+            width="50"
+            height="50"
+            className="d-inline-block align-top"
+            alt="logo"
+          />
+
+          <StyledTextSale>Sales</StyledTextSale>
+          </StyledIconSales >
+          <p>_________________________________________________________________________________________________</p>
+          <CarouselNews />
+
+      </StyledHeaderSales>
+
+
+
+      <Footer />
     </div>
   );
 };

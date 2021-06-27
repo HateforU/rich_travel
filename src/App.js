@@ -22,6 +22,7 @@ import NavbarHeader from "./DashboardMain/navbar/NavbarHeader.js";
 import Catalog from "./Catalog/Catalog.js";
 import Footer from "./DashboardMain/Footer.js";
 import Dashboard from "./DashboardMain/Dashboard.js";
+import PageBali from "./DashboardMain/PageBali.js";
 
 const App = () => {
   return (
@@ -35,6 +36,10 @@ const App = () => {
           <Route path="/catalog">
             <NavbarHeader />
             <Catalog />
+          </Route>
+          <Route path="/pagebali">
+            <PageBali />
+
           </Route>
 
           <Route path="*">

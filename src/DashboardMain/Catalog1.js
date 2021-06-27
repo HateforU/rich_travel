@@ -13,15 +13,11 @@ const Text=styled.div`
   text-align:center;
 `
 
-const Catalog=()=> {
+const Catalog1=()=> {
   return (
-    <div className="Catalog">
+    <div className="Catalog1">
       <div className="containerText">
-        <p>
-          <Text>
-            Welcome to the catalog. We know how to spend your money.
-          </Text>
-        </p>
+      
       </div>
     <DataCatalog />
     <Footer/>
@@ -30,4 +26,4 @@ const Catalog=()=> {
   );
 }
 
-export default Catalog;
+export default Catalog1;
