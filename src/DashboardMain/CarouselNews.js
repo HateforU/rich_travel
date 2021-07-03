@@ -3,7 +3,7 @@ import picture2 from "./luxary3.jpg";
 import picture3 from "./luxary5.jpg";
 import picture4 from "./luxary2.jpg";
 import picture5 from "./luxary4.jpeg";
-import picture6 from "./luxary6.jpg";
+import picture6 from "./luxary8.jpg";
 import Carousel from "react-bootstrap/Carousel";
 
 import styled from "styled-components";
@@ -161,6 +161,10 @@ const CarouselNews = () => {
           </StyledCarouselNews>
         </Carousel.Item>
       </Carousel>
+
+
+
+
     </div>
   );
 };

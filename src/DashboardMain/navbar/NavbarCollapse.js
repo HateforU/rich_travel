@@ -13,15 +13,18 @@ const StyledNavDropdown=styled.div`
 text-align:center;
 
 `
+const StyledNav=styled.div`
 
+`
 
 const NavbarCollapse = () => {
   return (
     <div className="NavbarCollapse">
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav.Link href="/dashboard">Home</Nav.Link>
-        <Nav.Link href="/catalog">Catalog</Nav.Link>
-        <Nav.Link href="#link">Booking</Nav.Link>
+      <Navbar.Collapse  id="basic-navbar-nav">
+        <Nav.Link  href="/dashboard" >Home</Nav.Link>
+        <Nav.Link  href="/catalog" >Catalog</Nav.Link>
+        <Nav.Link  href="#link">Booking</Nav.Link>
+
         <NavDropdown title="Contact" id="basic-nav-dropdown">
           <StyledNavDropdown>
             <NavDropdown.Item href="#action/3.1">Twitter</NavDropdown.Item>

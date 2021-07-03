@@ -1,5 +1,11 @@
 import "./App.css";
 
+// import "./jscustom.js";
+// import "./jquery-3.6.0.min.js";
+// import $ from "./jquery-3.6.0.min.js";
+
+
+
 import Button from "react-bootstrap/Button";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";

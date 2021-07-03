@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   background-color: white;
+  color: #133637
 }
 
 .App-logo {
@@ -9,7 +10,8 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {  animation: App-logo-spin infinite 20s linear;
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
   }
 }
 
@@ -47,8 +49,9 @@
 }
 
 .pictureCatalog {
-  float: left;;
+  float: left;
 }
+
 
 .catalog1 {
   border-style: solid;
@@ -94,7 +97,7 @@ p.footer_name {
   margin-top: 15px;
   line-height: normal;
   /*высота строки*/
-  font-family: 'Merriweather Sans';
+  font-family: "Merriweather Sans";
 }
 
 p.footer_social_icons {
@@ -133,51 +136,234 @@ p.footer_social_icons a:hover {
   /*создание псевдокласс,выбор последней колонки */
   margin-right: 0px;
 }
-.name2{
-float: left;
-margin-right: 10px;
-}
-.name3{
-  text-align: justify;
 
+.name2 {
+  float: left;
+  margin-right: 10px;
+}
+
+.name3 {
+  text-align: justify;
   margin-right: 25px;
   margin-top: 30px;
 }
-.name4{
-  float:left;
+
+.name4 {
+  float: left;
   display: flex;
   flex-direction: column;
   width: 10px;
   margin-right: 15px;
-
-
 }
-.namep{
+
+.namep {
   margin-top: 15px;
   margin-bottom: -24px;
 }
 
-a:hover{
-   text-decoration: none ;
+a:hover {
+  text-decoration: none;
+}
 
- }
- .carousel-control-prev{
-   /* bottom: 156px;
+.carousel-control-prev {
+  /* bottom: 156px;
    width: auto; */
- }
-.carouselmain{
-height: 600px;
-
 }
-.PageBaliContent{
+
+.carouselmain {
+  height: 600px;
+}
+
+.PageBaliContent {
   display: flex;
-
 }
-.PageBaliContentText{
-  margin-left:190px;
+
+.PageBaliContentText {
+  margin-left: 190px;
   margin-top: 20px;
   font-size: 15px;
   text-align: justify;
-  width:600px;
-  height:300px;
+  width: 600px;
+  height: 300px;
+}
+
+.DashboardMainPage1 {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.DashboardLeftDiv {
+  height: 100vh;
+  width: 25vw;
+  background-color: #133637;
+}
+
+.DashboardRightDiv {
+  height: 100vh;
+  width: 75vw;
+  background-image: url("./DashboardMain/backgroundDashboard50.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
+.DashboardLeftDivP {
+  font-family: Segoe script;
+  font-size: 70px;
+
+  justify-content: center;
+  align-items: center;
+  color: #cba07b;
+}
+.DashboardLeftDivImg{
+  margin-top: 30vh;
+  justify-content: center;
+  align-items: center;
+}
+.DashboardRightDivP1{
+  font-family:  HK Grotesk ;
+  font-size: 50px;
+  margin-top: 7vh;
+  margin-bottom: 0;
+  margin-left: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: #cba07b ;
+}
+.DashboardRightDivP2{
+  font-family:  HK Grotesk ;
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom:250px;
+  margin-right: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  color: rgb(194, 152, 116) ;
+}
+.buttonDashboard{
+  font-family:  HK Grotesk ;
+  font-size: 25px;
+  background-color: #133637;
+  color: #c29874;
+  border-color: #c29874;
+}
+.buttonDashboard:hover{
+  background-color: rgb(194, 152, 116, 0.5);
+  color: #133637;
+  border-color: #133637;
+}
+.yakor{
+  color:#c29874;
+}
+.yakor:hover{
+  color:#133637;
+}
+
+.DashboardMainPage2 {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.DashboardPage2RightDiv {
+  height: 100vh;
+  width: 25vw;
+  background-color: #133637;
+}
+
+.DashboardPage2LeftDiv {
+  height: 100vh;
+  width: 75vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+
+}
+.DashboardPage2RightDivP {
+  font-family: Segoe script;
+  font-size: 70px;
+  margin-top: 40vh;
+  justify-content: center;
+  align-items: center;
+  color: #cba07b;
+}
+.buttonDashboardPage2{
+  font-family:  HK Grotesk ;
+  font-size: 30px;
+  background-color: white;
+  color: #133637;
+  border-color: #133637;
+  margin-top: 20px;
+}
+.buttonDashboardPage2{
+  color:#133637;
+}
+.buttonDashboardPage2:hover{
+  color:#c29874;
+  border-color: #cba07b;
+  background-color: white;
+}
+.DashboardPage2Carousel{
+  border-color: #c29874;
+  margin-top: 40px;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+.CarouselHover:hover{
+  position: absolute;
+    background-color: rgb(56, 56, 55,0.9);
+}
+.CarouselHover:hover.icon{
+  visibility: visible;
+
+}
+
+.block, .front, .back {
+    width: 920px;
+    height: 520px;
+
+}
+.block{
+    box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+    margin: 15px;
+}
+.front{
+    transition: all .7s;
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.back{
+    -webkit-transform: rotateY(90deg);
+    transform: rotateY(90deg);
+    background: white;
+    transition: all .7s;
+    opacity: 0;
+}
+.block > div:hover .front{
+    -webkit-transform: rotateY(90deg);
+    transform: rotateY(90deg);
+
+}
+.block > div:hover .back{
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    opacity: 1;
+}
+
+.TextCarouselCaption{
+  font-family:  HK Grotesk ;
+  font-size: 45px;
+  justify-content: center;
+  align-items: center;
+}
+.CarouselCaptionDiv{
+  width: 920px;
+  height: 520px;
+  background: linear-gradient(to right, #F6EFD2, #cba07b);
 }
